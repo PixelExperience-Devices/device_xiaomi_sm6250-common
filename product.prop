@@ -7,3 +7,6 @@ debug.gralloc.enable_fb_ubwc=1
 
 # USAP
 persist.device_config.runtime_native.usap_pool_enabled=true
+
+# PixelFP
+ro.build.fingerprint=google/sunfish/sunfish:11/RP1A.201005.006/6828489:user/release-keys
