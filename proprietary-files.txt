@@ -1394,6 +1394,9 @@ vendor/firmware/Drv2624Date.ini
 # WiFi
 vendor/bin/cnss-daemon
 
+#wfd hack
+vendor/lib64/libdisplayconfig.so:priv-app/WfdService/lib/arm64/libdisplayconfig.so
+
 # WiFi Display
 -framework/WfdCommon.jar
 system_ext/bin/rtspclient
@@ -1412,6 +1415,7 @@ system_ext/lib/libwfdaac.so
 system_ext/lib/libwfdavenhancements.so
 system_ext/lib/libwfdcommonutils.so
 system_ext/lib/libwfdconfigutils.so
+system_ext/lib/libwfddisplayconfig.so|f820d710151f2128422cd759891ff466b101844c
 system_ext/lib/libwfdmminterface.so
 system_ext/lib/libwfdmmsink.so
 system_ext/lib/libwfdmmsrc_system.so
@@ -1433,6 +1437,7 @@ system_ext/lib64/libmmrtpencoder.so
 system_ext/lib64/libwfdclient.so
 system_ext/lib64/libwfdcommonutils.so
 system_ext/lib64/libwfdconfigutils.so
+system_ext/lib64/libwfddisplayconfig.so|8d98d7ed260434d67167e4c0e427bf1e851e66f4
 system_ext/lib64/libwfdmminterface.so
 system_ext/lib64/libwfdmmsink.so
 system_ext/lib64/libwfdnative.so
