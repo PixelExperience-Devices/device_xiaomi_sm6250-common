@@ -29,5 +29,8 @@ media.settings.xml=/vendor/etc/media_profiles_vendor.xml
 # Netflix
 ro.netflix.bsp_rev=Q6250-19132-1
 
+# Radio
+persist.sys.fflag.override.settings_provider_model=false
+
 # SSR
 persist.vendor.ssr.restart_level=ALL_ENABLE
