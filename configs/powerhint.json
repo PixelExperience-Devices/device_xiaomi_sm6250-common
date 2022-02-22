@@ -37,6 +37,7 @@
       "Values": [
         "9999999",
 	"1900800",
+	"825600",
         "652800"
       ],
       "ResetOnInit": true
@@ -222,6 +223,12 @@
       "Node": "GPUMaxFreq",
       "Duration": 0,
       "Value": "3"
+    },
+    {
+      "PowerHint": "INTERACTION",
+      "Node": "CPUBigClusterMinFreq",
+      "Duration": 0,
+      "Value": "825600"
     },
     {
       "PowerHint": "INTERACTION",
