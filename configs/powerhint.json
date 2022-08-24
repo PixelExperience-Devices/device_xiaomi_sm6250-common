@@ -89,15 +89,6 @@
       "ResetOnInit": true
     },
     {
-      "Name": "TASchedtuneHighCap",
-      "Path": "/dev/stune/top-app/schedtune.prefer_high_cap",
-      "Values": [
-        "1",
-        "0"
-      ],
-      "ResetOnInit": true
-    },
-    {
       "Name": "CPUBWHystTriggerCount",
       "Path": "/sys/class/devfreq/soc:qcom,cpu-cpu-llcc-bw/bw_hwmon/hyst_trigger_count",
       "Values": [
@@ -241,12 +232,6 @@
       "Node": "CPULittleClusterMinFreq",
       "Duration": 0,
       "Value": "1248000"
-    },
-    {
-      "PowerHint": "INTERACTION",
-      "Node": "TASchedtuneHighCap",
-      "Duration": 0,
-      "Value": "1"
     },
     {
       "PowerHint": "INTERACTION",
