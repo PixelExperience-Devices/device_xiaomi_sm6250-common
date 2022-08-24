@@ -8,7 +8,7 @@
   {
     "repository": "LineageOS/android_kernel_xiaomi_sm6250",
     "target_path": "kernel/xiaomi/sm6250",
-    "branch": "lineage-18.1",
+    "branch": "lineage-19.1",
     "remote": "github"
   },
   {
